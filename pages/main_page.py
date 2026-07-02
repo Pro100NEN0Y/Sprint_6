@@ -10,7 +10,7 @@ class MainPage(BasePage):
     BOTTOM_ORDER_BUTTON = (By.XPATH, ".//div[contains(@class, 'Home_')]//button[text()='Заказать']")
 
     # URL главной страницы
-    URL = 'https://qa-scooter.praktikum-services.ru/' # Или точный URL Самоката из твоего задания
+    URL = 'https://qa-scooter.praktikum-services.ru/'
 
     # Динамический локатор для стрелочки вопроса (num — это индекс от 0 до 7)
     QUESTION_LOCATOR = (By.XPATH, ".//div[@id='accordion__heading-{}']")
